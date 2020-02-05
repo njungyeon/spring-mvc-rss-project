@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Join</title>
+</head>
+<body>
+<!-- html 폼으로는 post request를 못하는가 보다.. -->
+	<form action="${cp}/member/join" method="post">
+		ID : <input type="text" name="memId" ><br />
+		PW : <input type="password" name="memPw" ><br />
+		MAIL : <input type="text" name="memMail" ><br />
+		NICKNAME : <input type="text" name="memNickname" size="10">
+		
+		<input type="submit" value="Join" >
+		<input type="reset" value="Cancel" >
+	</form>
+	<a href="/myapp/resources/html/login.html">LOGIN</a> &nbsp;&nbsp; <a href="/myapp/resources/html/index.html">MAIN</a>
+
+</body>
+</html>
